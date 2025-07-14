@@ -21,7 +21,7 @@ document.addEventListener("scroll", () => {
     }
   });
 });
-
+  
 document.addEventListener("scroll", () => {
   const elements = document.querySelectorAll(".aboutEnd");
 

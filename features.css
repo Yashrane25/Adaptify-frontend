@@ -9,7 +9,12 @@ body {
   font-family: "Glacial Indifference", sans-serif;
   font-size: 25px;
   font-family: "Montserrat", sans-serif;
-  background: linear-gradient(to right, rgb(255, 255, 255),rgb(194, 216, 255), rgb(192, 212, 249));
+  background: linear-gradient(
+    to right,
+    rgb(255, 255, 255),
+    rgb(194, 216, 255),
+    rgb(192, 212, 249)
+  );
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -19,7 +24,7 @@ body {
   color: whitesmoke;
   display: flex;
   justify-content: center;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .features {
@@ -112,4 +117,93 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* ---------- Responsive Design for Features Section ---------- */
+@media (max-width: 1024px) {
+  .mainHeading {
+    font-size: 22px;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .features {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .eyeControl,
+  .SpeechToText,
+  .gestureControl {
+    width: 45%;
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .startButton {
+    font-size: 16px;
+    padding: 12px 30px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainHeading {
+    font-size: 20px;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .heading {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .features {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px;
+    gap: 20px;
+  }
+
+  .eyeControl,
+  .SpeechToText,
+  .gestureControl {
+    width: 100%;
+    font-size: 15px;
+    padding: 15px 10px;
+  }
+
+  .startButton {
+    font-size: 15px;
+    padding: 10px 20px;
+    width: 100%;
+    margin: 20px auto 0 auto;
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .mainHeading {
+    font-size: 18px;
+  }
+
+  .heading {
+    font-size: 18px;
+  }
+
+  .eyeControl,
+  .SpeechToText,
+  .gestureControl {
+    font-size: 14px;
+    padding: 12px 8px;
+  }
+
+  .startButton {
+    font-size: 14px;
+    padding: 10px;
+  }
 }
