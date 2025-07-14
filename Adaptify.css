@@ -17,10 +17,22 @@
   top: 0;
 }
 
-body {
+/* body {
   background: linear-gradient(to right, #05080f, #0f1724, #121c2b);
   height: 100vh;
   margin-top: 70px;
+} */
+
+body {
+  background: linear-gradient(to right, #05080f, #0f1724, #121c2b);
+  height: 100vh;
+  margin-top: 90px;
+}
+
+@media (max-width: 768px) {
+  body {
+    margin-top: 140px;
+  }
 }
 
 .logo-image {
