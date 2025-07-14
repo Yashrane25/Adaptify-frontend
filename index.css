@@ -17,12 +17,6 @@
   top: 0;
 }
 
-/* body {
-  background: linear-gradient(to right, #05080f, #0f1724, #121c2b);
-  height: 100vh;
-  margin-top: 70px;
-} */
-
 body {
   background: linear-gradient(to right, #05080f, #0f1724, #121c2b);
   height: 100vh;
@@ -54,28 +48,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-/* .logo {
-  font-size: 2rem;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: bold;
-  padding: 30px;
-  color: rgb(10, 131, 179);
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  opacity: 0;
-  animation: fadeIn 1s ease-out forwards;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-} */
 
 .nav-a {
   color: rgb(158, 158, 158);
