@@ -33,7 +33,6 @@ This repository contains the **frontend** codebase of Adaptify, developed using 
 
 ## 🛠 Tech Stack
 
-- React.js  
 - HTML5 & CSS3  
 - JavaScript  
 - Accessibility-first design principles
@@ -45,8 +44,3 @@ This repository contains the **frontend** codebase of Adaptify, developed using 
 We welcome contributions that align with our mission of making technology accessible for everyone.  
 Feel free to fork, clone, or raise an issue to suggest improvements.
 
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
